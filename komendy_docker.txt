@@ -22,7 +22,7 @@ Komenda 18 : przekształcenie pliku Dockerfile w obraz dockera (należy wejść 
 Komenda 19 : wyświetlenie wszystkich obrazów zaczynających się na literę w: docker image ls 'w*'
 Komenda 20 : docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 Komenda 21 : uruchomienie kontenera na podstawie nowo utworzonego obrazu z dwoma nowymi wartościami zmiennych środowiskowych: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
-Komenda 22 :
+Komenda 22 : hitoria obrazu web-ping: docker image history web-ping
 Komenda 23 :
 Komenda 24 :
 Komenda 25 :
