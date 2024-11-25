@@ -1,8 +1,8 @@
 Komendy platformy DOCKER:
 
 Komenda 1 : wersja dockera: docker version
-Komenda 2 : dwruchomienie kontenera z pakietu diamol: docker container run diamol/ch02-hello-diamol
-Komenda 2 :
+Komenda 2 : uruchomienie kontenera z pakietu diamol: docker container run diamol/ch02-hello-diamol
+Komenda 2 : logowanie do powershell: docker login -U --login --haslo
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
