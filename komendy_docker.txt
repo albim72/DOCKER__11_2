@@ -14,9 +14,9 @@ Komenda 10 : podgląd wszystkich istneijących kontenerów: docker container ls 
 Komenda 11 : uruchomienie aplikcaji web w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web
 Komenda 12 : usuwanie wszystkich kontenerów w tle: docker container rm --force $(docker container ls --all --quiet)
 Komenda 13 : pobieranie obrazu aplikacji wrb-ping:  docker image pull diamol/ch03-web-ping
-Komenda 14 : wykoanie kontenera na podstawie pobranego obracu
-Komenda 2 :
-Komenda 2 :
+Komenda 14 : wykonanie kontenera na podstawie pobranego obrazu:  docker container run -d --name web-ping diamol/ch03-web-ping
+Komenda 15 : dziennki wykonanego kontenera: docker container logs web-ping
+Komenda 2 : 
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
