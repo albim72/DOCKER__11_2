@@ -16,8 +16,8 @@ Komenda 12 : usuwanie wszystkich kontenerów w tle: docker container rm --force 
 Komenda 13 : pobieranie obrazu aplikacji wrb-ping:  docker image pull diamol/ch03-web-ping
 Komenda 14 : wykonanie kontenera na podstawie pobranego obrazu:  docker container run -d --name web-ping diamol/ch03-web-ping
 Komenda 15 : dziennki wykonanego kontenera: docker container logs web-ping
-Komenda 2 : 
-Komenda 2 :
+Komenda 16 : usunięcie instniejącego kontenera: docker rm -f web-ping
+Komenda 17 : uruchomienie kontenera z nową wartością zmiennej środkowiskowej TARGET: docker container run --env TARGET=google.com diamol/ch03-web-ping
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
