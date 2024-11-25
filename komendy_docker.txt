@@ -12,7 +12,7 @@ Komenda 8 : podląd listy zdarzeń w wybranym kontenerze: docker container logs 
 Komenda 9 : podgląd szczegółów dotyczących kontenera i jego procesów: docker container inspect 5e62c929b4c3
 Komenda 10 : podgląd wszystkich istneijących kontenerów: docker container ls --all
 Komenda 11 : uruchomienie aplikcaji web w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web
-Komenda 12 :
+Komenda 12 : usuwanie wszystkich kontenerów w tle: docker container rm --force $(docker container ls --all --quiet)
 Komenda 13 :
 Komenda 14 :
 Komenda 2 :
