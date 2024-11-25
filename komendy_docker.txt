@@ -5,7 +5,7 @@ Komenda 2 : uruchomienie kontenera z pakietu diamol: docker container run diamol
 Komenda 3 : logowanie do powershell: docker login -U --login --haslo
 Komenda 4 :PS C:\> $password = "Has"
 PS C:\> @password | docker login -U username --password-stdin
-Komenda 2 :
+Komenda 5 : uruchomienie interakcyjnego kontenera:  docker container run --interactive --tty diamol/base
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
