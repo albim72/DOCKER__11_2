@@ -43,7 +43,8 @@ Komenda 27 : aplikacje wieloetapowe -> wejdź do katalogu: cd diamol\ch04\exerci
             -> utwórz sieć do dockera nat: docker network create nat
             -> uruchomienie kontenera na podstawie przygotowanego obrazu:docker container run  --name iotd -d -p 800:80 --network nat image-of-the-day
             -> otwórz stronę: localhost:800/image
-Komenda 2 :
+Komenda 28 : Program w pythonie -> zbuduj program sigmoid_, napisz plik Dockerfile, zainstaluj numpy
+              
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
