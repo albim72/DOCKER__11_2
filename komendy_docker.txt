@@ -46,13 +46,6 @@ Komenda 27 : aplikacje wieloetapowe -> wejdź do katalogu: cd diamol\ch04\exerci
 Komenda 28 : Program w pythonie -> zbuduj program sigmoid_, napisz plik Dockerfile, zainstaluj numpy
               -> uruchom obraz: docker build -t sigmoid-python .
               -> uruchomienie interaktywne: docker container run --interactive --tty sigmoid-python
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
+Komenda 29 : uruchamianie aplikacji wielokentenerowych (musi działać siec nat), wejdź w katalog apliakcji: cd diamol\ch07\exercises\todo-list
+            -> uruchom: docker-compose up
+            -> wejdź na stronę: localhost:8020
