@@ -19,6 +19,18 @@ Komenda 15 : dziennki wykonanego kontenera: docker container logs web-ping
 Komenda 16 : usunięcie instniejącego kontenera: docker rm -f web-ping
 Komenda 17 : uruchomienie kontenera z nową wartością zmiennej środkowiskowej TARGET: docker container run --env TARGET=google.com diamol/ch03-web-ping
 Komenda 18 : przekształcenie pliku Dockerfile w obraz dockera (należy wejść do katalogu zwaieającego plik Dockerfile :  docker image build --tag web-ping .
+Komenda 19 : wyświetlenie wszystkich obrazów zaczynających się na literę w: docker image ls 'w*'
+Komenda 20 : docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
+Komenda 21 : uruchomienie kontenera na podstawie nowo utworzonego obrazu z dwoma nowymi wartościami zmiennych środowiskowych: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
+Komenda 22 :
+Komenda 23 :
+Komenda 24 :
+Komenda 25 :
+Komenda 26 :
+Komenda 27 :
+Komenda 2 :
+Komenda 2 :
+Komenda 2 :
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
