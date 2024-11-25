@@ -37,7 +37,7 @@ Komenda 25 : zmodyfikuj plik Dockerfile dla aplikacji web-ping:
               WORKDIR /web-ping
               COPY app.js .
 
-Komenda 26 :
+Komenda 26 : Trzecia wersja obrazu web-ping: docker image build -t web-ping:v3 .
 Komenda 27 :
 Komenda 2 :
 Komenda 2 :
