@@ -24,7 +24,7 @@ Komenda 20 : docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 Komenda 21 : uruchomienie kontenera na podstawie nowo utworzonego obrazu z dwoma nowymi wartościami zmiennych środowiskowych: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 Komenda 22 : hitoria obrazu web-ping: docker image history web-ping
 Komenda 23 : sumaryczna wielkość zajmowanej pamięci: docker system df
-Komenda 24 :
+Komenda 24 : budowanie drugiej wersji obrazu po drobnej modyfikacji pliku app.js: docker image build -t web-ping:v2 .
 Komenda 25 :
 Komenda 26 :
 Komenda 27 :
