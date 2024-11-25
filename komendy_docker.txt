@@ -10,11 +10,11 @@ Komenda 6 : podgląd listy działających kontenerów: docker container ls
 Komenda 7 : podląd listy procesów w wybranym kontenerze: docker container top 5e62c929b4c3
 Komenda 8 : podląd listy zdarzeń w wybranym kontenerze: docker container logs 5e62c929b4c3
 Komenda 9 : podgląd szczegółów dotyczących kontenera i jego procesów: docker container inspect 5e62c929b4c3
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
-Komenda 2 :
+Komenda 10 : podgląd wszystkich istneijących kontenerów: docker container ls --all
+Komenda 11 :
+Komenda 12 :
+Komenda 13 :
+Komenda 14 :
 Komenda 2 :
 Komenda 2 :
 Komenda 2 :
